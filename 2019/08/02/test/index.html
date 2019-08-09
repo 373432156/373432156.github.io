@@ -258,7 +258,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Knight">
       <meta itemprop="description" content="当你凝望深渊,深渊也凝望你">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/shuimotouxiang1.jpeg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -336,8 +336,8 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-              <a href="/2019/08/02/test1/" rel="prev" title="test1">
-                test1 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/08/09/test-1/" rel="prev" title="test">
+                test <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -383,6 +383,9 @@
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/shuimotouxiang1.jpeg"
+      alt="Knight">
   <p class="site-author-name" itemprop="name">Knight</p>
   <div class="site-description motion-element" itemprop="description">当你凝望深渊,深渊也凝望你</div>
 </div>
@@ -391,8 +394,27 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span>
         </a>
       </div>
     
@@ -400,13 +422,21 @@
       
       <div class="site-state-item site-state-tags">
         
+          
+            <a href="/tags/">
+          
+        
         
         
           
         
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">标签</span>
+          
         
+          
+        
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
       </div>
     
   </nav>
@@ -535,6 +565,25 @@
 
 
 
+<script>
+if ($('body').find('pre.mermaid').length) {
+  $.ajax({
+    type: 'GET',
+    url: '//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js',
+    dataType: 'script',
+    cache: true,
+    success: function() {
+      mermaid.initialize({
+        theme: 'forest',
+        logLevel: 3,
+        flowchart: { curve: 'linear' },
+        gantt: { axisFormat: '%m/%d/%Y' },
+        sequence: { actorMargin: 50 }
+      });
+    }
+  });
+}
+</script>
 
 
 

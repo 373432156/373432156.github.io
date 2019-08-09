@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test1]]></title>
-    <url>%2F2019%2F08%2F02%2Ftest1%2F</url>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F08%2F09%2Ftest-2%2F</url>
+    <content type="text"><![CDATA[这是篇测试文档 注定不平凡1424]]></content>
+      <categories>
+        <category>linux</category>
+        <category>filesystem</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>filesystem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F08%2F09%2Ftest-1%2F</url>
     <content type="text"></content>
   </entry>
   <entry>

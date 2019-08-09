@@ -276,7 +276,7 @@
         
           
         
-        嗯..! 目前共计 3 篇日志。 继续努力。
+        嗯..! 目前共计 4 篇日志。 继续努力。
       </span>
       
 
@@ -298,9 +298,9 @@
     <header class="post-header">
 
       <h2 class="post-title">
-          <a class="post-title-link" href="/2019/08/02/test1/" itemprop="url">
+          <a class="post-title-link" href="/2019/08/09/test-2/" itemprop="url">
             
-              <span itemprop="name">test1</span>
+              <span itemprop="name">test</span>
             
           </a>
         
@@ -308,9 +308,45 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2019-08-02T19:18:25+08:00"
-              content="2019-08-02">
-          08-02
+              datetime="2019-08-09T14:36:38+08:00"
+              content="2019-08-09">
+          08-09
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+          <a class="post-title-link" href="/2019/08/09/test-1/" itemprop="url">
+            
+              <span itemprop="name">test</span>
+            
+          </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2019-08-09T14:33:24+08:00"
+              content="2019-08-09">
+          08-09
         </time>
       </div>
 
@@ -424,6 +460,9 @@
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/shuimotouxiang1.jpeg"
+      alt="Knight">
   <p class="site-author-name" itemprop="name">Knight</p>
   <div class="site-description motion-element" itemprop="description">当你凝望深渊,深渊也凝望你</div>
 </div>
@@ -432,8 +471,27 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span>
         </a>
       </div>
     
@@ -441,13 +499,21 @@
       
       <div class="site-state-item site-state-tags">
         
+          
+            <a href="/tags/">
+          
+        
         
         
           
         
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">标签</span>
+          
         
+          
+        
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
       </div>
     
   </nav>
@@ -555,6 +621,25 @@
 
 
 
+<script>
+if ($('body').find('pre.mermaid').length) {
+  $.ajax({
+    type: 'GET',
+    url: '//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js',
+    dataType: 'script',
+    cache: true,
+    success: function() {
+      mermaid.initialize({
+        theme: 'forest',
+        logLevel: 3,
+        flowchart: { curve: 'linear' },
+        gantt: { axisFormat: '%m/%d/%Y' },
+        sequence: { actorMargin: 50 }
+      });
+    }
+  });
+}
+</script>
 
 
 
